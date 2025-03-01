@@ -1,0 +1,6 @@
+{
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "allowedUsers": ["USER_ID_1", "USER_ID_2"],
+    "roleId": "ROLE_ID_HERE",
+    "guildId": "SERVER_ID_HERE"
+}
