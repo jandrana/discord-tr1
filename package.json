@@ -1,0 +1,20 @@
+{
+  "name": "discord-role-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for role management through buttons",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "roles"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}

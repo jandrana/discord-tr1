@@ -1,0 +1,15 @@
+[Unit]
+Description=Discord Role Management Bot
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/bot/directory
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=10
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
